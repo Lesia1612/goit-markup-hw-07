@@ -16,8 +16,10 @@
   display: flex;
 }
 
-.team-list__item:not(:last-child) {
-  margin-right: 30px;
+.team-list__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .team-card {

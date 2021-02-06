@@ -235,6 +235,10 @@ button {
 }
 
 /* Підкреслений пункт меню */
+.site-nav__link--current {
+  color: #2196f3;
+}
+
 .site-nav__link--current::after {
   content: '';
   display: block;
@@ -245,10 +249,6 @@ button {
   width: 100%;
   border-radius: 4px;
   background-color: #2196f3;
-}
-
-.site-nav__link--current {
-  color: #2196f3;
 }
 
 body {
@@ -305,6 +305,10 @@ body {
 }
 
 .benefits-list__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 

@@ -10,12 +10,14 @@
   flex-wrap: wrap;
 }
 
-.portfolio-list__item:not(:nth-child(3n)) {
-  margin-right: 30px;
-}
+.portfolio-list__item {
+  &:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
 
-.portfolio-list__item:not(:nth-last-child(-n + 3)) {
-  margin-bottom: 30px;
+  &:not(:nth-last-child(-n + 3)) {
+    margin-bottom: 30px;
+  }
 }
 
 .portfolio-list__link {
@@ -39,8 +41,10 @@
   margin-bottom: 50px;
 }
 
-.button-list__item:not(:last-child) {
-  margin-right: 8px;
+.button-list__item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 
 .product__title {

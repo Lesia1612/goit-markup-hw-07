@@ -16,8 +16,10 @@
   @extend %list-title;
 }
 
-.social-networks-list__item:not(:last-child) {
-  margin-right: 10px;
+.social-networks-list__item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .social-networks-list__link {

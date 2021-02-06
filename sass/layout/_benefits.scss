@@ -14,11 +14,17 @@
 }
 
 .benefits-list__title {
+  font-weight: 700;
+  font-size: $primary-font-size;
+  line-height: $primary-line-height;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.benefits-list__item:not(:last-child) {
-  margin-right: 30px;
+.benefits-list__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .benefits-list__icon-background {
